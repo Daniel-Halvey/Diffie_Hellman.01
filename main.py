@@ -3,7 +3,7 @@ def main():
     g = int(input("Give G as a INTEGER: "))
 
     x = int(input("What is Alice's random number? (x): "))
-    y = int(input("What is Bob's random number? (y): "))
+    y = int(input("What is Daniel's random number? (y): "))
 
     print(" ")
 
@@ -26,9 +26,9 @@ def main():
 
     kb = LOL1 ** y % p
 
-    print("Bob's Key (Kb) is", kb, "---------------->" "to get this answer you take", LOL1, "^", x, "(", LOL1 ** y,
+    print("Daniels's Key (Kb) is", kb, "---------------->" "to get this answer you take", LOL1, "^", x, "(", LOL1 ** y,
           ")", "%", p, "to get the answer of ", kb)
-    print("Bob & Alice get married start a family and live happily ever after and DH buys a boat")
+    print("Daniel & Alice get married start a family and live happily ever after and Daniel_H buys a boat")
 
 
 main()
